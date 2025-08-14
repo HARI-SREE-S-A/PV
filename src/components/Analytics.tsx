@@ -21,16 +21,16 @@ const Analytics = () => {
   const performanceMetrics = [
     {
       metric: 'Throughput',
-      before: '15 apps/day',
+      before: '5 apps/day',
       after: '20 apps/day',
-      improvement: '+33%',
+      improvement: '+133%',
       color: 'from-blue-500 to-blue-600'
     },
     {
       metric: 'Lead Time',
       before: '14 days',
-      after: '6 days',
-      improvement: '-57%',
+      after: '1 days',
+      improvement: '-157%',
       color: 'from-green-500 to-green-600'
     },
     {
