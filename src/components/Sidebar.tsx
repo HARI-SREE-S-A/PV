@@ -36,7 +36,7 @@ const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggle }) => {
         {!collapsed && (
           <div className="flex items-center space-x-2">
             <div className="w-6 h-6 bg-gradient-to-r from-blue-500 to-teal-500 rounded"></div>
-            <span className="font-semibold text-white">PackIntel</span>
+            <span className="font-semibold text-white">PackVision</span>
           </div>
         )}
         <button
