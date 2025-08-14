@@ -20,7 +20,7 @@ const Infrastructure = () => {
     {
       name: 'UK South',
       location: 'London',
-      vms: 647832,
+      vms: 2000,
       status: 'healthy',
       utilization: 68,
       cost: '£28,450',
@@ -29,7 +29,7 @@ const Infrastructure = () => {
     {
       name: 'UK West',
       location: 'Cardiff',
-      vms: 400000,
+      vms: 1000,
       status: 'healthy',
       utilization: 72,
       cost: '£19,200',
@@ -51,7 +51,7 @@ const Infrastructure = () => {
       severity: 'warning',
       message: 'High CPU utilization detected in UK South region',
       timestamp: '15 minutes ago',
-      affected: '2,847 VMs'
+      affected: '847 VMs'
     },
     {
       id: 2,
@@ -65,7 +65,7 @@ const Infrastructure = () => {
       severity: 'critical',
       message: 'Package deployment failed for Adobe Creative Suite',
       timestamp: '2 hours ago',
-      affected: '15,000 VMs'
+      affected: '100 VMs'
     }
   ];
 
