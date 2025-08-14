@@ -17,7 +17,7 @@ const Overview = () => {
   const metrics = [
     {
       title: 'Active VMs',
-      value: '1,047,832',
+      value: '5000',
       change: '+2.3%',
       trend: 'up',
       icon: Activity,
@@ -81,7 +81,7 @@ const Overview = () => {
         <div className="flex space-x-3">
           <button className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 px-4 py-2 rounded-lg font-medium transition-all flex items-center space-x-2">
             <Plus className="w-4 h-4" />
-            <span>New Package Request</span>
+            <span>New Package</span>
           </button>
           <button className="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2">
             <BarChart3 className="w-4 h-4" />
