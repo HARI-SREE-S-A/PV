@@ -10,7 +10,7 @@ const Header = () => {
             <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">PI</span>
             </div>
-            <h1 className="text-xl font-semibold text-white">PackIntel</h1>
+            <h1 className="text-xl font-semibold text-white">PackVision</h1>
           </div>
         </div>
 
@@ -32,8 +32,8 @@ const Header = () => {
 
             <div className="flex items-center space-x-3">
               <div className="text-right">
-                <p className="text-sm font-medium text-white">Sarah Chen</p>
-                <p className="text-xs text-gray-400">DevOps Engineer</p>
+                <p className="text-sm font-medium text-white">Hari Sree</p>
+                <p className="text-xs text-gray-400">Admin-Devops</p>
               </div>
               <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
                 <User className="w-4 h-4 text-white" />
