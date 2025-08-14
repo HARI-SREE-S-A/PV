@@ -13,45 +13,45 @@ import {
 
 const Analytics = () => {
   const costComparison = {
-    traditional: { value: 45.87, label: 'Traditional Method' },
-    aiDriven: { value: 19.15, label: 'AI-Driven Method' },
+    traditional: { value: 45.87, label: 'Manual' },
+    aiDriven: { value: 19.15, label: 'AI' },
     savings: 58.2
   };
 
   const performanceMetrics = [
     {
       metric: 'Throughput',
-      before: '15 apps/day',
-      after: '20 apps/day',
-      improvement: '+33%',
+      Manual: '5 apps/day',
+      AI: '20 apps/day',
+      improvement: '+200%',
       color: 'from-blue-500 to-blue-600'
     },
     {
       metric: 'Lead Time',
-      before: '14 days',
-      after: '6 days',
-      improvement: '-57%',
+      Manual: '14 days',
+      AI: '1 day',
+      improvement: '-157%',
       color: 'from-green-500 to-green-600'
     },
     {
       metric: 'Cycle Time',
-      before: '8 hours',
-      after: '3.2 hours',
+      Manual: '8 hours',
+      AI '3.2 hours',
       improvement: '-60%',
       color: 'from-purple-500 to-purple-600'
     },
     {
       metric: 'Error Rate',
-      before: '12%',
-      after: '3%',
+      Manual: '12%',
+      AI: '3%',
       improvement: '-75%',
       color: 'from-teal-500 to-teal-600'
     }
   ];
 
   const roiData = {
-    investmentCost: 847000,
-    monthlySavings: 127400,
+    investmentCost: 47000,
+    monthlySavings: 27400,
     paybackMonths: 6.6,
     annualROI: 180.2
   };
